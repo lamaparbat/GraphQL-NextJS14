@@ -1,0 +1,8 @@
+query GetAllTodos{
+    getTodos {
+        _id
+        title
+        deadline
+        isCompleted
+    }
+}
